@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'alright sans';
+  src: url("fonts/alrightsans-extrathin-webfont.eot");
+  src: url("fonts/alrightsans-extrathin-webfont-.eot#iefix") format("embedded-opentype"), url("fonts/alrightsans-extrathin-webfont.woff") format("woff"), url("fonts/alrightsans-extrathin-webfont.ttf") format("truetype"), url("fonts/alrightsans-extrathin-webfont.svg#alright_sansextra_thin") format("svg");
+  font-weight: 100;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'alright sans';
+  src: url("fonts/alrightsans-thin-webfont.eot");
+  src: url("fonts/alrightsans-thin-webfont-.eot#iefix") format("embedded-opentype"), url("fonts/alrightsans-thin-webfont.woff") format("woff"), url("fonts/alrightsans-thin-webfont.ttf") format("truetype"), url("fonts/alrightsans-thin-webfont.svg#alright_sansthin") format("svg");
+  font-weight: 200;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'alright sans';
+  src: url("fonts/alrightsans-light-webfont.eot");
+  src: url("fonts/alrightsans-light-webfont-.eot#iefix") format("embedded-opentype"), url("fonts/alrightsans-light-webfont.woff") format("woff"), url("fonts/alrightsans-light-webfont.ttf") format("truetype"), url("fonts/alrightsans-light-webfont.svg#alright_sanslight") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+
+@font-face {
+  font-family: 'alright sans';
+  src: url("fonts/alrightsans-regular-webfont.eot");
+  src: url("fonts/alrightsans-regular-webfont-.eot#iefix") format("embedded-opentype"), url("fonts/alrightsans-regular-webfont.woff") format("woff"), url("fonts/alrightsans-regular-webfont.ttf") format("truetype"), url("fonts/alrightsans-regular-webfont.svg#alright_sans_regularregular") format("svg");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'alright sans';
+  src: url("fonts/alrightsans-medium-webfont.eot");
+  src: url("fonts/alrightsans-medium-webfont-.eot#iefix") format("embedded-opentype"), url("fonts/alrightsans-medium-webfont.woff2") format("woff2"), url("fonts/alrightsans-medium-webfont.woff") format("woff"), url("fonts/alrightsans-medium-webfont.ttf") format("truetype"), url("fonts/alrightsans-medium-webfont.svg#alright_sansmedium") format("svg");
+  font-weight: 500;
+  font-style: normal; }
+

@@ -1,0 +1,71 @@
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  height: 60px;
+  z-index: 10000; }
+  header .row {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 40px; }
+    header .row .logo-ws {
+      float: left;
+      width: 49%; }
+    header .row .div-menu {
+      float: right;
+      width: 50%;
+      text-align: right;
+      position: relative; }
+    header .row ico_menu {
+      -webkit-transition: -webkit-transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
+      -moz-transition: -moz-transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
+      -o-transition: -o-transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
+      transition: transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
+      -webkit-backface-visibility: hidden;
+      -webkit-perspective: 1000;
+      position: relative; }
+    header .row #wrapIcon {
+      cursor: pointer;
+      position: absolute;
+      right: 0; }
+    header .row #ico_menu {
+      width: 24px;
+      height: 20px;
+      display: block;
+      float: left;
+      transform: rotate(0deg);
+      transition: .5s ease-in-out;
+      margin-top: 21px;
+      margin-right: 0;
+      text-decoration: none;
+      color: #fff; }
+    header .row #ico_menu span {
+      display: block;
+      position: absolute;
+      height: 3px;
+      width: 100%;
+      background: #fff;
+      opacity: 1;
+      left: 0;
+      transform: rotate(0deg);
+      transition: .25s ease-in-out; }
+    header .row #ico_menu:after {
+      content: "";
+      margin-left: 40px;
+      font-size: 24px;
+      text-transform: uppercase;
+      text-decoration: none;
+      line-height: .95em; }
+    header .row #ico_menu #barra_01 {
+      top: 0;
+      left: 0;
+      transform-origin: left center; }
+    header .row #ico_menu #barra_02 {
+      top: 8px;
+      left: 0;
+      transform-origin: left center; }
+    header .row #ico_menu #barra_03 {
+      top: 16px;
+      left: 0;
+      transform-origin: left center; }
