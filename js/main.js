@@ -12,7 +12,7 @@ $(document).ready(function() {
 	 			sectionsColor: ['#502D6D', '#502D6D', '#502D6D', '#502D6D'],
 			    navigation: {
 			    	'position': 'right',
-			   		'tooltips': ['HOME', 'SHOWROOM VIRTUALE', 'CONFIGURAZIONE PRODOTTI', 'MOBILE ENGAGEMENT', 'ADVERGAMING','EDUTAINMENT', 'DATI STATISTICI', 'PROTOTIPAZIONE VIRTUALE','MANUTENZIONE E FORMAZIONE','SMART MANUFACTURING']
+			   		'tooltips': ['HOME', 'SHOWROOM VIRTUALE', 'CONFIGURAZIONE PRODOTTI', 'MOBILE ENGAGEMENT', 'ADVERGAMING','EDUTAINMENT', 'DATI STATISTICI', 'PROTOTIPAZIONE VIRTUALE','MANUTENZIONE E FORMAZIONE','SMART MANUFACTURING','AR']
 			   	},
 			   	onLeave: function(index, nextIndex, direction){
 			   	if(index == 7){
@@ -124,6 +124,13 @@ $(document).ready(function() {
 					if(index == 10){
 						$("video").each(function () { this.pause();});
 					    $('#section10').find('video').get(0).play();
+
+					}
+					//section 11
+					
+					
+					if(index == 11){
+						$('.title').addClass("scale");
 
 					}
 				},
