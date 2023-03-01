@@ -2,13 +2,13 @@ header {
   position: absolute;
   top: 0;
   width: 100%;
-  background-color: black;
+  background-color: #452b61;
   height: 60px;
   z-index: 10000; }
   header .row {
     max-width: 1920px;
     margin: 0 auto;
-    padding: 0 40px; }
+    padding: 0 10px; }
     header .row .logo-ws {
       float: left;
       width: 49%; }
