@@ -16,8 +16,8 @@ $(document).ready(function() {
 			   	},
 			   	onLeave: function(index, nextIndex, direction){	 
 				 
-			   	if(index == 14){
-				 setTimeout(function() {$('#section6').find('.3d-pano').find('canvas').remove(); }, 800);
+			   	if(index == 15){
+				 setTimeout(function() {$('#section14').find('.3d-pano').find('canvas').remove(); }, 800);
 				 }
 				 
 				 
@@ -32,138 +32,64 @@ $(document).ready(function() {
 			    },
 			   	
 			   	 afterLoad: function(anchorLink, index){
-			   	 	// RESPONSIVE CHECk - Redraw Navigation 
-					
-			   	 	
-			    	
-			    	//section 1
-					
-					if(index == 1){
-						$("video").each(function () { this.pause();});
-					    $('#section1').find('video').get(0).play();
-
+	
+					$("video").each(function () { this.pause(); });
+		
+					if (index == 1) {
+						$('#section1').find('video').get(0).play();
 					}
-					
-					//section 2
-					
-					if(index == 2){
-						$("video").each(function () { this.pause();});
-					    $('#section2').find('video').get(0).play();
-
+		
+					if (index == 2) {
+						$('#section2').find('video').get(0).play();
 					}
-					
-					//section 3
-					
-					if(index == 3){
-						$("video").each(function () { this.pause();});
-					    $('#section3').find('video').get(0).play();
-
+		
+					if (index == 3) {
+						$('#section3').find('video').get(0).play();
 					}
-					
-					//section 4
-					
-					if(index == 4){
-						$("video").each(function () { this.pause();});
-					    $('#section3').find('video').get(0).play();
+					if (index == 4) {
+						$('#section4').find('video').get(0).play();
 					}
-					
-					//section 5				
-					
-					if(index == 5){
-						$("video").each(function () { this.pause();});
-					    $('#section5').find('video').get(0).play();
-
+					if (index == 5) {
+						$('#section5').find('video').get(0).play();
 					}
-					
-					//section 6
-					
-					
-					if(index == 6){
-						$("video").each(function () {this.pause();});
-					    $('#section9').find('video').get(0).play();
+					if (index == 6) {
+						$('#section6').find('video').get(0).play();
 					}
-					
-					//section 7
-					
-					
-					if(index == 7){
-						$("video").each(function () {this.pause();});
-					    $('#section8').find('video').get(0).play();
+					if (index == 7) {
+						$('#section7').find('video').get(0).play();
 					}
-					
-					//section 8
-										
-					if(index == 8){
-						$("video").each(function () {this.pause();});
-					    $('#section8').find('video').get(0).play();
+					if (index == 8) {
+						$('#section8').find('video').get(0).play();
 					}
-					
-					
-					//section 9
-					
-					
-					if(index == 9){
-						$("video").each(function () {this.pause();});
-					    $('#section9').find('video').get(0).play();
-
+					if (index == 9) {
+						$('#section9').find('video').get(0).play();
 					}
-					
-					//section 10
-					
-					
-					if(index == 10){
-						$("video").each(function () { this.pause();});
-					    $('#section10').find('video').get(0).play();
-
+					if (index == 10) {
+						$('#section10').find('video').get(0).play();
 					}
-					//section 11
-					
-					
-					if(index == 11){
-						$('.title').addClass("scale");
-
+					if (index == 11) {
+						$('#section11').find('video').get(0).play();
+					}	
+					if (index == 12) {
+						$('#section12').find('video').get(0).play();
 					}
-
-					//section 12
-					
-					
-					if(index == 12){
-						$("video").each(function () { this.pause();});
-					    $('#section10').find('video').get(0).play();
-
+					if (index == 13) {
+						$('#section13').find('video').get(0).play();
 					}
-					
-
-					//section 13
-
-					if(index == 13){
-						elemento = $('.3d-pano'); 
-						init_panorama(elemento);
-						 setTimeout(function() {$('#section3').find('.3d-pano').find('canvas').fadeIn(); }, 800); 
-					   }
-
-					//section 14
-					
-					
-					if(index == 14){
-						$('.title').addClass("scale");
-
+					if (index == 14) {
+						setTimeout(function () {
+							init_panorama($('.3d-pano'));
+						}, 300);
 					}
-
-					//section 15
-					
-					
-					if(index == 15){
-						$("video").each(function () { this.pause();});
-					    $('#section10').find('video').get(0).play();
-
-					}
-
-					
+					if (index == 15) {
+						// AR
+					}	
+					if (index == 16) {
+						$('#section16').find('video').get(0).play();
+					}																														
 				},
 			    
-			   	afterRender: function(){
-					//playing the video
+				afterRender: function () {
 					$('#section1').find('video').get(0).play();
 				}
 			});
