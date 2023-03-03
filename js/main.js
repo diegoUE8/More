@@ -12,19 +12,11 @@ $(document).ready(function() {
 	 			sectionsColor: ['#502D6D', '#502D6D', '#502D6D', '#502D6D'],
 			    navigation: {
 			    	'position': 'right',
-			   		'tooltips': ['HOME', 'SHOWROOM VIRTUALE', 'CONFIGURAZIONE PRODOTTI', 'MOBILE ENGAGEMENT', 'ADVERGAMING','EDUTAINMENT', 'PROTOTIPAZIONE','FORMAZIONE','SMART MANUFACTURING','AR']
+			   		'tooltips': ['HOME', 'SHOWROOM VIRTUALE', 'MUSEO VIRTUALE', 'FOTOREALISMO', 'FORMAZIONE','GAMING', 'INTERACTION','VIDEO 360','METAVERSO','CONFERENCE','HOLOLENS','MIXED REALITY','SMART MANUFACTURING','EDUTAINMENT 360', 'MODEL VIEWER','VIDEO RENDER']
 			   	},
-			   	onLeave: function(index, nextIndex, direction){
-			   	if(index == 7){
-					 $('.title').removeClass("scale");
-					}
+			   	onLeave: function(index, nextIndex, direction){	 
 				 
-				 
-				 if(index == 4){
-				 setTimeout(function() {$('#section4').find('.3d-video').find('canvas').remove(); }, 800);
-				 }
-				 
-			   	if(index == 6){
+			   	if(index == 14){
 				 setTimeout(function() {$('#section6').find('.3d-pano').find('canvas').remove(); }, 800);
 				 }
 				 
@@ -141,34 +133,27 @@ $(document).ready(function() {
 
 					}
 					
+
 					//section 13
-					
+
 					if(index == 13){
-						$("video").each(function () { this.pause();});
-					    $('#section10').find('video').get(0).play();
-
-					}					
-
-					//section 14
-
-					if(index == 14){
 						elemento = $('.3d-pano'); 
 						init_panorama(elemento);
 						 setTimeout(function() {$('#section3').find('.3d-pano').find('canvas').fadeIn(); }, 800); 
 					   }
 
-					//section 15
+					//section 14
 					
 					
-					if(index == 15){
+					if(index == 14){
 						$('.title').addClass("scale");
 
 					}
 
-					//section 16
+					//section 15
 					
 					
-					if(index == 16){
+					if(index == 15){
 						$("video").each(function () { this.pause();});
 					    $('#section10').find('video').get(0).play();
 
