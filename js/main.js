@@ -71,9 +71,8 @@ $(document).ready(function() {
 					//section 4
 					
 					if(index == 4){
-					 elemento = $('.3d-video'); 
-					 init_video(elemento);
-					  setTimeout(function() {$('#section4').find('.3d-video').find('canvas').fadeIn(); }, 800); 
+						$("video").each(function () { this.pause();});
+					    $('#section3').find('video').get(0).play();
 					}
 					
 					//section 5				
@@ -88,9 +87,8 @@ $(document).ready(function() {
 					
 					
 					if(index == 6){
-					 elemento = $('.3d-pano'); 
-					 init_panorama(elemento);
-					  setTimeout(function() {$('#section3').find('.3d-pano').find('canvas').fadeIn(); }, 800); 
+						$("video").each(function () {this.pause();});
+					    $('#section9').find('video').get(0).play();
 					}
 					
 					//section 7
@@ -102,8 +100,7 @@ $(document).ready(function() {
 					}
 					
 					//section 8
-					
-					
+										
 					if(index == 8){
 						$("video").each(function () {this.pause();});
 					    $('#section8').find('video').get(0).play();
@@ -134,6 +131,50 @@ $(document).ready(function() {
 						$('.title').addClass("scale");
 
 					}
+
+					//section 12
+					
+					
+					if(index == 12){
+						$("video").each(function () { this.pause();});
+					    $('#section10').find('video').get(0).play();
+
+					}
+					
+					//section 13
+					
+					if(index == 13){
+						$("video").each(function () { this.pause();});
+					    $('#section10').find('video').get(0).play();
+
+					}					
+
+					//section 14
+
+					if(index == 14){
+						elemento = $('.3d-pano'); 
+						init_panorama(elemento);
+						 setTimeout(function() {$('#section3').find('.3d-pano').find('canvas').fadeIn(); }, 800); 
+					   }
+
+					//section 15
+					
+					
+					if(index == 15){
+						$('.title').addClass("scale");
+
+					}
+
+					//section 16
+					
+					
+					if(index == 16){
+						$("video").each(function () { this.pause();});
+					    $('#section10').find('video').get(0).play();
+
+					}
+
+					
 				},
 			    
 			   	afterRender: function(){
